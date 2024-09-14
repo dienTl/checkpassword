@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(134deg , green , white 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fix{
+    background: white;
+    border-radius: 10px;
+    border: none;
+}
+.fix i {
+    margin-right: 10px;
+}
+button{
+    margin-left: 20px;
+    background: green;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.box{
+    margin: 10px;
+    background: rgb(37, 72, 37);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    border-radius: 10px;
+}
+.box p{
+   padding: 10px;
+
+}
+.box p{
+    margin: 5px;
+}
+.box p.valid{
+    color: #ccc;
+}
+.box p.valid::before{
+    content: '\f00c';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    padding: 10px ;
+}
+.box p::before{
+    content: '\f00d';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    padding: 10px ;
+    color: white;
+}
+.hide{
+    display: none;
+}
